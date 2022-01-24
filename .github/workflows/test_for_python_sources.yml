@@ -1,7 +1,7 @@
 name: Test for python sources
 
-on: # [push, pull_request]
-  workflow_dispatch:
+on:  [push, pull_request]
+  
 jobs:
   flake8-lint:
     runs-on: ubuntu-latest
